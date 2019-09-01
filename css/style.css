@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none !important;
+}
+
+body {
+    font-family: 'ProximaNova', sans-serif;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background: #ff4b4b;
+}
+
+.customContainer {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainNavbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.mainNav {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.mainNav li {
+    margin-right: 15px;
+}
+
+.mainNav li:last-child {
+    margin-right: 0;
+}
+
+.mainNavbar a img {
+    width: 100%;
+    height: auto;
+    margin-top: 7px;
+}
+
+.topNav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+}
+
+header:before, header:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #da2525;
+    top: 55px;
+}
+
+header:after {
+    background: #b50000;
+    top: 54px;
+}
+
+.navContacts {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navSocialNetworks {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.navContacts a:first-child {
+    padding-right: 10px;
+}
+
+.carouselSlide h2 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    bottom: 0;
+    z-index: 9;
+    margin-bottom: 0;
+}
+
+.carouselSlide span {
+    color: #ff4b4b;
+}
+
+.carouselSlide img {
+    position: relative;
+}
+
+.page-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #ff4b4b;
+    text-align: center;
+    padding: 50px;
+}
+
+.journey, .sport {
+    color: #333333;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.sport:before {
+    content: '';
+    position: absolute;
+    width: 204px;
+    height: 5px;
+    background: #ff4b4b;
+    top: 5px;
+}
+
+.sport {
+    position: relative;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.firstBlock {
+    padding-top: 185px;
+}
+
+.kidsClub, .pageMainTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.kidsClubTitle {
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.kidsClubText {
+    font-weight: lighter;
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.kidsClubFirstRow, .kidsClubSecondRow {
+    position: relative;
+}
+
+.kidsClubImg, .kidsClubImg2 {
+    position: absolute;
+    right: 175px;
+    top: -25px;
+    z-index: 10;
+}
+
+.kidsClubImg2 {
+    right: 0;
+    z-index: 8;
+}
+
+.kidsClubSecondRow {
+    margin: 100px 0 250px 0;
+}
+
+.kidsClubSecondRow {
+    z-index: 9;
+}
+
+.kidsClubSecondRow .col-md-7, .kidsClubFirstRow .col-md-9 {
+    background: #fafafa;
+    padding: 50px;
+}
+
+.customSection {
+    background: #ff4b4b;
+    transform: skew(0deg, 5deg);
+}
+
+#secondBlock .pageMainTitle {
+    transform: skew(0deg, -5deg);
+    color: #fff;
+    padding: 110px 0;
+}
+
+.info-title {
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.info-card {
+    background: #333;
+    padding: 250px 30px;
+    margin-top: -90px;
+    z-index: -1;
+}
+
+.info-text {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 24px;
+}
+
+.prizes-info-card {
+    padding: 250px 30px;
+    margin-top: -90px;
+}
+
+.prizes-info-card img {
+    width: 100%;
+    height: auto;
+}
+
+.prizes-text {
+    color: #333;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.prizes-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    padding-top: 30px;
+}
+
+.prizes-shadow {
+    box-shadow: 0 0 20px 0 #3333335c;
+    padding: 20px;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+}
+
+.owl-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+}
+
+.fa-chevron-circle-right, .fa-chevron-circle-left {
+    color: #aaa9aa;
+    font-size: 100px;
+}
+
+#information, .newsList {
+    transform: skew(0deg, -5deg);
+    background: #ff4b4b;
+    margin-bottom: 100px;
+}
+
+.informationTitle, .newsTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    transform: skew(0deg, 5deg);
+    padding: 50px 0;
+    margin-top: -90px;
+    text-transform: uppercase;
+}
+
+.informationCard {
+    position: relative;
+    max-width: 30%;
+    margin-bottom: 40px;
+    background: #fff;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.informationCardTitle {
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff4b4b;
+}
+
+#information .container #notTransform {
+    transform: skew(0deg, 5deg);
+}
+
+.cardText {
+    font-weight: lighter;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 0 170px 0;
+}
+.cardMoreButton {
+    position: absolute;
+    padding: 25px 105px;
+    background: #ff4b4b;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.cardReadAll {
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 48px;
+    color: #fff;
+    margin: -40px 0 40px 0;
+    padding-top: -20px;
+    transform: skew(0deg, 5deg);
+}
+.cardReadAll:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    bottom: 0;
+}
+.birthdayFitness, .birthdayFitness2 {
+    font-size: 24px;
+    color: #333;
+}
+.birthdayFitness2 {
+    padding-left: 270px;
+}
+.birthdayFitness span {
+    color: #ff4b4b;
+    text-transform: uppercase;
+}
+.left-brthday, .right-brthday {
+    position: relative;
+}
+#birthday .left-brthday img {
+    position: relative;
+    top: -40px;
+    left: -40px;
+}
+#birthday .right-brthday img {
+    position: relative;
+    top: -35px;
+    left: -100px;
+}
+.birthdayFitness2 span {
+    color: #ff4b4b;
+}
+.right-brthday {
+    left: 500px;
+    max-width: 800px;
+    bottom: 300px;
+}
+#news {
+    margin-top: -270px;
+    margin-bottom: 50px;
+}
+.newsTitle {
+    padding: 90px 0 160px;
+}
+.dateAndViewers img:nth-child(2) {
+    padding-left: 20px;
+}
+.newsCardText, .newsCardTitle {
+    font-weight: lighter;
+    color: #333;
+    font-size: 15px;
+    padding: 5px 10px 0 10px;;
+}
+.newsCardTitle {
+    font-weight: bold;
+}
+.dateAndViewers {
+    padding: 0 10px;
+}
+.newsCardImg {
+    width: 100%;
+    height: auto;
+}
+.newsList {
+    margin-bottom: -60px;
+}
+.newsCardButton {
+    position: absolute;
+    background: #ff4b4b;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 89%;
+    margin: auto;
+    padding: 8px;
+}
+.newsCard {
+    position: relative;
+    margin-bottom: 70px;
+}
+footer {
+    background: #333;
+}
+.footerTop {
+    display: flex;
+    color: #fff;
+    padding-top: 30px;
+}
+.footerAdress {
+    display: flex;
+    margin: 0 180px 0 140px;
+}
+.footerAdress h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.footerAdress img {
+    margin-bottom: auto;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.footerCallback img {
+    margin-bottom: auto;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.footerCallback p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.footerCallback span:nth-child(2) {
+    font-size: 20px;
+}
+.footerCallback span:nth-child(3) {
+    font-size: 24px;
+    font-weight: bold;
+}
+.callBack {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.footerNavs {
+    display: flex;
+}
+.footerNavsTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footerListItem {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.footerFirstNav, .footerSecondNav, .footerThirdNav {
+    margin-right: 140px;
+}
+.footerNavs {
+    margin-top: 20px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.firstBlock .col-md-6 img {
+    width: 100%;
+    height: auto;
+}
+.informationCard.col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}

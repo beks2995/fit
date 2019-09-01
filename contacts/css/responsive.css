@@ -1,0 +1,398 @@
+@media (max-width: 1440px) {
+    .mainNav, .navContacts, .info-text, .prizes-text {
+        font-size: 18px;
+    }
+    .page-title {
+        font-size: 40px;
+        padding: 30px;
+    }
+    .firstBlock {
+        padding-top: 60px;
+    }
+    .journey, .sport {
+        font-size: 20px;
+    }
+    .kidsClub, .pageMainTitle, #secondBlock .pageMainTitle {
+        font-size: 50px;
+        padding: 70px 0;
+    }
+    .kidsClubTitle {
+        font-size: 24px;
+    }
+    .kidsClubText, .cardText {
+        font-size: 16px;
+    }
+    .kidsClubImg2 {
+        right: -60px;
+        width: 30%;
+    }
+    .kidsClubImg {
+        right: 65px;
+        width: 30%;
+    }
+    .info-title, .prizes-title {
+        font-size: 22px;
+    }
+    .informationTitle, .newsTitle {
+        font-size: 50px;
+    }
+    .cardText {
+        padding: 10px 0 100px 0;
+    }
+    .cardReadAll {
+        font-size: 40px;
+    }
+    .informationCardTitle {
+        font-size: 20px;
+    }
+    #birthday .left-brthday img {
+        top: -20px;
+        left: -20px;
+        width: 50%;
+    }
+    .right-brthday {
+        left: 500px;
+        max-width: 550px;
+        bottom: 180px;
+        margin-bottom: 120px;
+    }
+    #birthday .right-brthday img {
+        top: -20px;
+        left: -100px;
+        width: 90%;
+    }
+    .footerAdress {
+        margin: 0 60px;
+    }
+    .footerAdress h2 {
+        font-size: 20px;
+    }
+    .footerFirstNav, .footerSecondNav, .footerThirdNav {
+        margin-right: 80px;
+    }
+    .footerListItem {
+        font-size: 14px;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    .cardList {
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mainNav, .navContacts, .info-text, .prizes-text {
+        font-size: 14px;
+    }
+    .mainNav li {
+        margin-right: 0;
+    }
+    .mainNavbar a img {
+        width: 80%;
+    }
+    .navContacts {
+        margin-top: 7px
+    }
+    .carouselSlide h2 {
+        font-size: 20px;
+    }
+    .page-title {
+        font-size: 32px;
+    }
+    .journey, .sport {
+        font-size: 16px;
+    }
+    .kidsClub, .pageMainTitle, #secondBlock .pageMainTitle {
+        font-size: 32px;
+        padding: 30px 0;
+    }
+    .kidsClubTitle {
+        font-size: 20px;
+    }
+    .kidsClubText, .cardText {
+        font-size: 14px;
+    }
+    .kidsClubImg {
+        right: 20px;
+        width: 30%;
+    }
+    .kidsClubImg2 {
+        right: 0;
+        width: 30%;
+    }
+    .kidsClubSecondRow {
+        margin: 40px 0;
+    }
+    .prizes-info-card, .info-card {
+        padding: 140px 20px;
+    }
+    .informationTitle, .newsTitle {
+        font-size: 42px;
+    }
+    .informationCardTitle {
+        font-size: 14px;
+    }
+    .informationCard {
+        padding: 5px;
+        margin-right: 20px;
+    }
+    .topCard img {
+        width: 40%;
+    }
+    .kidsClubText, .cardText {
+        font-size: 12px;
+    }
+    .cardMoreButton {
+        padding: 15px;
+    }
+    .cardText {
+        padding: 10px 0 50px 0;
+    }
+    .cardReadAll {
+        font-size: 32px;
+    }
+    #birthday .right-brthday img {
+        top: -20px;
+        left: -60px;
+        width: 100%;
+    }
+    .right-brthday {
+        left: 360px;
+        max-width: 650px;
+        bottom: 180px;
+        margin-bottom: 100px;
+    }
+    .footerAdress h2 {
+        font-size: 14px;
+    }
+    .footerAdress {
+        margin: 0 15px;
+    }
+    .footerCallback span:nth-child(2) {
+        font-size: 16px;
+    }
+    .footerCallback span:nth-child(3) {
+        font-size: 18px;
+    }
+    .footerLogo {
+        width: 90%;
+    }
+    .footerNavsTitle {
+        font-size: 20px;
+    }
+    .footerFirstNav, .footerSecondNav, .footerThirdNav {
+        margin-right: 30px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    .fa-chevron-circle-right, .fa-chevron-circle-left {
+        font-size: 70px;
+    }
+    .birthdayFitness, .birthdayFitness2 {
+        font-size: 20px;
+    }
+    .right-brthday {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contactTitle{
+        font-size: 60px;
+    }
+    .kidsClubText {
+        padding-top: 10px;
+    }
+    .journey, .sport {
+        font-size: 12px;
+    }
+    .kidsClubFirstRow .col-md-9 {
+        background: #fafafa;
+        padding: 20px 50px 20px 20px;
+    }
+    .card{
+        margin: 445px 25px 30px 0;
+        font-size: 15px;
+    }
+    .card:before{
+        top: 15px;
+        right: -6px;
+    }
+    .kidsClubImg {
+        right: 50px;
+        width: 30%;
+        top: -15px;
+    }
+    .kidsClubImg2 {
+        right: -15px;
+        width: 30%;
+        top: -15px;
+    }
+    .informationCardTitle {
+        font-size: 13px;
+    }
+    .informationCard {
+        padding: 5px;
+        margin-right: 20px;
+    }
+    #information {
+        margin-bottom: 40px;
+    }
+    .newsList {
+        margin-bottom: -40px;
+    }
+    #birthday .left-brthday img {
+        left: -15px;
+        top: -15px;
+    }
+    .birthdayFitness, .birthdayFitness2 {
+        font-size: 16px;
+    }
+    .right-brthday {
+        max-width: 320px;
+        left: 365px;
+    }
+    #birthday .right-brthday img {
+        top: -15px;
+        left: -60px;
+    }
+    .birthdayFitness, .birthdayFitness2 {
+        font-size: 14px;
+    }
+    .newsTitle {
+        padding: 50px 0 70px;
+    }
+    .newsCardText, .newsCardTitle {
+        padding: 0;
+    }
+    .footerAdress h2 {
+        font-size: 12px;
+    }
+    .footerCallback p {
+        font-size: 12px;
+    }
+    .footerCallback span:nth-child(2) {
+        font-size: 14px;
+    }
+    .footerCallback span:nth-child(3) {
+        font-size: 16px;
+    }
+    .callBack {
+        font-size: 10px;
+    }
+    .footerNavsTitle {
+        font-size: 16px;
+    }
+    .footerListItem {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar{
+        width: 350px;
+    }
+    .card{
+        margin: 110px 25px 30px 0;
+        font-size: 14px;
+        margin-right: 18px;
+    }
+    .contactTitle{
+        font-size: 50px;
+    }
+    .carouselSlide h2 {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .kidsClubImg, .kidsClubImg2 {
+        right: -30px;
+        top: -30px;
+    }
+    .kidsClubSecondRow .col-md-7 {
+        padding: 10px 100px 10px 10px;
+    }
+    .kidsClub, .pageMainTitle, #secondBlock .pageMainTitle {
+        padding: 50px;
+    }
+    .informationCard {
+        max-width: 70%;
+        margin-bottom: 15px;
+        background: #fff;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #birthday .left-brthday img, #birthday .right-brthday img {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .right-brthday {
+        left: 0;
+        max-width: 100%;
+        bottom: 0;
+        margin-bottom: 270px;
+    }
+    .footerLogo {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #contacts{
+        padding: 35px;
+    }
+    .contact {
+        margin-top: 15px;
+    }
+    #time {
+        padding: 35px;
+        margin-top: 20px;
+    }
+    #time li:nth-child(4) {
+        margin-bottom: 60px;
+    }
+    .address {
+        padding: 35px;
+    }
+
+    .address h3 {
+        margin-bottom: 30px;
+    }
+    .icon img {
+        width: 80%;
+        height: 80%;
+    }
+    .card {
+        margin: 10px;
+    }
+    .card:before {
+        display: none;
+    }
+    .kidsClubFirstRow .col-md-9 {
+        padding: 20px 100px 20px 20px;
+    }
+    .kidsClubSecondRow .col-md-7 {
+        padding: 10px 100px 10px 10px;
+    }
+    .navSocialNetworks {
+        width: 100%;
+    }
+    .navContacts {
+        font-size: 10px;
+    }
+    .fa-chevron-circle-right, .fa-chevron-circle-left {
+        font-size: 30px;
+    }
+    .kidsClubImg, .kidsClubImg2 {
+        right: 0;
+        top: 0;
+    }
+    .footerNavs {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none !important;
+}
+
+body {
+    font-family: 'ProximaNova', sans-serif;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background: #ff4b4b;
+}
+
+.customContainer {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainNavbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.mainNav {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.mainNav li {
+    margin-right: 15px;
+}
+
+.mainNav li:last-child {
+    margin-right: 0;
+}
+
+.mainNavbar a img {
+    width: 100%;
+    height: auto;
+    margin-top: 7px;
+}
+
+.topNav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+}
+
+header:before, header:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #da2525;
+    top: 55px;
+}
+
+header:after {
+    background: #b50000;
+    top: 54px;
+}
+
+.navContacts {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navSocialNetworks {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.navContacts a:first-child {
+    padding-right: 10px;
+}
+footer {
+    background: #333;
+}
+.footerTop {
+    display: flex;
+    color: #fff;
+    padding-top: 30px;
+}
+.footerAdress {
+    display: flex;
+    margin: 0 180px 0 140px;
+}
+.footerAdress h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.footerAdress img {
+    margin-bottom: auto;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.footerCallback img {
+    margin-bottom: auto;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.footerCallback p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.footerCallback span:nth-child(2) {
+    font-size: 20px;
+}
+.footerCallback span:nth-child(3) {
+    font-size: 24px;
+    font-weight: bold;
+}
+.callBack {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.footerNavs {
+    display: flex;
+}
+.footerNavsTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footerListItem {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.footerFirstNav, .footerSecondNav, .footerThirdNav {
+    margin-right: 140px;
+}
+.footerNavs {
+    margin-top: 20px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.breadcrump p {
+    display: inline-block;
+    background: #ff4b4b;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 50px 0;
+}
+.breadcrump p span {
+    color: #333;
+}
+.personalTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #333;
+}
+.personalTitle span {
+    color: #ff4b4b;
+}
+.name h3{
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.abonement{
+    background: #fff;
+    color: #333;
+    height: 80px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0;
+
+}
+.abonement p{
+    display: flex;
+    background: #fafafa;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+.abonement p:hover{
+    background: #ebebeb;
+}
+.abonement-select p{
+    background: #ff4b4b;
+}
+.abonement-select p:hover{
+    background: #ff4b4b;
+}
+.abonement-list{
+    margin-bottom: 50px;
+}
+.registration{
+    background: #ebebeb;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.form-control{
+    width: 105%;
+}
+.abonement-list input, .content {
+    display: none;
+}
+
+#one:checked ~ .one,
+#two:checked ~ .two,
+#three:checked ~ .three,
+#four:checked ~ .four,
+#five:checked ~ .five,
+#six:checked ~ .six,
+#seven:checked ~ .seven {display: block;}
+
+.abonement-list .abonement {
+    cursor: pointer;
+    padding: 25px;
+    margin-bottom: 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.abonement-list input:checked + .abonement {background: #ff4b4b; color: #fff}
